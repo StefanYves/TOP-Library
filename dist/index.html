@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body class="bg-gray-200">
+    <div
+      id="overlay"
+      class="fixed top-0 left-0 w-full h-full bg-black opacity-50 z-10 hidden"
+    ></div>
+    <div class="bg-slate-400 flex items-center justify-between shadow-lg">
+      <div class="mt-10 mb-5">
+        <h1 class="ml-5 text-4xl font-roboto font-bold text-white">
+          MyLibrary
+        </h1>
+      </div>
+      
+        <button class="font-roboto font-bold" id="addBook">
+          <div class="mt-10 mb-5 mr-5 bg-gray-200 rounded-full text-center p-2 flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" 
+            viewBox="0 0 20 24" 
+            class="h-10 mr-2">
+            <title>plus</title>
+            <path d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" 
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+    <div>
+      <div
+        class="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-gray-200 p-4 shadow-lg rounded-lg z-20 hidden"
+        id="form"
+      >
+        <form action="" class="flex flex-col items-center justify-center">
+          <div class="p-4 bg-slate-400 w-full text-center rounded-xl mb-5">
+            <h1 class="text-2xl font-roboto font-bold">Add a new book</h1>
+          </div>
+          <div>
+            <label for="title" class="mt-5 font-roboto text-xl ml-5"
+              >Title:</label
+            >
+            <input
+              type="text"
+              name="title"
+              id="title"
+              class="bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline font-roboto"
+            />
+          </div>
+          <div>
+            <label for="author" class="font-roboto text-xl mt-2">Author:</label>
+            <input
+              type="text"
+              name="author"
+              id="author"
+              class="bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline font-roboto"
+            />
+          </div>
+          <div>
+            <label for="pages" class="font-roboto text-xl mt-2 ml-1"
+              >Pages:</label
+            >
+            <input
+              type="number"
+              name="pages"
+              id="pages"
+              class="bg-gray-100 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline font-roboto"
+            />
+          </div>
+          <div>
+            <label for="read" class="font-roboto text-xl mt-2 mr-2"
+              >Read the Book?</label
+            >
+
+            <input
+              list="values"
+              id="read"
+              class="bg-gray-100 text-gray-900 mt-2 mr-20 p-3 rounded-lg focus:outline-none focus:shadow-outline font-roboto"
+            />
+            <datalist id="values">
+              <option value="Yes"></option>
+              <option value="No"></option>
+            </datalist>
+          </div>
+          <input
+            type="submit"
+            name=""
+            id=""
+            class="mb-5 mt-5 font-roboto text-xl cursor-pointer bg-slate-400 p-2 rounded-xl"
+          />
+        </form>
+      </div>
+      <div class="">
+        <div class="grid grid-cols-3 gap-2" id="container"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
