@@ -1,6 +1,7 @@
 # TOP-Library
 
-Welcome to the Enhanced Book Library, a JavaScript library designed to help you manage your reading list. This project was created as part of TheOdinProject Course.
+Welcome to the Enhanced Book Library, a JavaScript library designed to help you manage your reading list. 
+This project was created as part of TheOdinProject Course.
 
 # How It's Made
 
