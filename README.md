@@ -1,6 +1,7 @@
 # TOP-Library
 
 Welcome to the Enhanced Book Library, a JavaScript library designed to help you manage your reading list. 
+
 This project was created as part of TheOdinProject Course.
 
 # How It's Made
@@ -19,11 +20,14 @@ Edit Book Status: Change the read or unread status of a book directly from the b
 
 # How to Use
 Clone this repository to your local machine.
+
 Start managing your reading list by adding, editing, and marking books as read or unread.
 
 # Lessons Learned
 Through this project, I delved deeper into object-oriented programming and gained a better understanding of:
 
 Advanced usage of objects for efficient data management.
+
 Implementing responsive design principles for a modern and accessible user interface.
+
 Leveraging Tailwind CSS to enhance the visual appeal of web applications.
