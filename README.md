@@ -18,7 +18,6 @@ Edit Book Status: Change the read or unread status of a book directly from the b
 
 # How to Use
 Clone this repository to your local machine.
-Open the index.html file in your preferred web browser.
 Start managing your reading list by adding, editing, and marking books as read or unread.
 
 # Lessons Learned
