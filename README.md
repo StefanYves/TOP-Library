@@ -28,6 +28,4 @@ Through this project, I delved deeper into object-oriented programming and gaine
 
 Advanced usage of objects for efficient data management.
 
-Implementing responsive design principles for a modern and accessible user interface.
-
 Leveraging Tailwind CSS to enhance the visual appeal of web applications.
